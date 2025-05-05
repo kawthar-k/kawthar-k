@@ -1,89 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>لوحة التحكم - ملخصات [اسمك]</title>
+  <title>ملخصات السنة الأولى ثانوي</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
       direction: rtl;
     }
-
-    header {
-      background-color: #1e90ff;
-      color: white;
-      text-align: center;
-      padding: 20px;
+    h1 {
+      color: #2c3e50;
     }
-
-    header h1 {
-      margin: 0;
-    }
-
-    .profile {
+    .summary {
       background-color: #fff;
-      margin: 20px;
+      border: 1px solid #ccc;
       padding: 15px;
+      margin-bottom: 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-
-    .dashboard {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
+    .summary h2 {
+      color: #333;
     }
-
-    .card {
-      background-color: #ffffff;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .card h3 {
-      color: #1e90ff;
-      margin-top: 0;
-    }
-
-    .card a {
-      color: #1e90ff;
+    .summary a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1a73e8;
       text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>📚 لوحة التحكم - ملخصات وليد</h1>
-    <p>مرحبا بك فلوحتك الخاصة</p>
-  </header>
+  <h1>📚 ملخصات السنة الأولى ثانوي</h1>
 
-  <div class="profile">
-    <h2>👤 معلوماتي</h2>
-    <p><strong>الاسم:</strong> وليد بن عمارة</p>
-    <p><strong>السنة:</strong> 1 ثانوي</p>
-    <p><strong>الهوايات:</strong> البرمجة، الدراسة، تطوير المواقع 😎</p>
+  <div class="summary">
+    <h2>📘 ملخص درس الدوال المرجعية</h2>
+    <p>
+      هذا الملخص يشرح أهم أنواع الدوال مثل الدالة الخطية والدالة التآلفية والدالة التربيعية مع تمثيلاتها البيانية وخصائصها.
+    </p>
+    <a href="https://www.dzexams.com/ar/documents/WUFQWjVlVHhtRksrK2ZXbXQ4REFVZz09" target="_blank">🔗 تحميل الملخص</a>
   </div>
 
-  <div class="dashboard">
-    <div class="card">
-      <h3>📘 ملخص: الدوال المرجعية</h3>
-      <p>ملخص فيه أهم أنواع الدوال (خطية، تآلفية، تربيعية)...</p>
-      <a href="https://www.dzexams.com/ar/documents/WUFQWjVlVHhtRksrK2ZXbXQ4REFVZz09" target="_blank">🔗 تحميل</a>
-    </div>
-
-    <div class="card">
-      <h3>📗 ملخص: الدائرة المثلثية</h3>
-      <p>تعريف الزوايا الشهيرة والنسب المثلثية مع تمارين تطبيقية.</p>
-      <a href="https://www.dzexams.com/ar/documents/ZlVyUXZZL2N5Uk55MW1JblpDc29zUT09" target="_blank">🔗 تحميل</a>
-    </div>
+  <div class="summary">
+    <h2>📗 ملخص درس الدائرة المثلثية وحساب المثلثات</h2>
+    <p>
+      هذا الملخص يشرح مفاهيم الدائرة المثلثية، الزوايا الشهيرة، وكيفية حساب الجيب وجيب التمام للزوايا، مع تمارين تطبيقية.
+    </p>
+    <a href="https://www.dzexams.com/ar/documents/ZlVyUXZZL2N5Uk55MW1JblpDc29zUT09" target="_blank">🔗 تحميل الملخص</a>
   </div>
 
 </body>
 </html>
+
